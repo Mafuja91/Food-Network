@@ -1,3 +1,9 @@
+.full {
+    font-family: 'Poppins',
+        sans-serif;
+
+}
+
 h1 {
     text-transform: capitalize;
     font-weight: 700;
@@ -16,8 +22,8 @@ a {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     color: white;
-    padding: 15px 25px;
-    border-radius: 30%;
+    padding: 15px 30px;
+    border-radius: 40%;
 }
 
 .first-part {
@@ -33,8 +39,99 @@ a {
 
 .half-first img {
     width: 80%;
+
 }
 
 .half-first h1 {
     margin: 40px 0;
+}
+
+.second-part {
+    display: flex;
+    background-image: url(images/7.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.half-second {
+    width: 50%;
+
+}
+
+.half-second-text {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+
+
+}
+
+.recipe h4 {
+    font-size: 24px;
+}
+
+.half-second img {
+    height: 80%;
+    width: 80%;
+}
+
+.recipe {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+.f-part {
+    width: 33%;
+    box-shadow: 10px 10px 20px gray;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.recipe-part {
+    display: flex;
+}
+
+.recipe-part img {
+    width: 80%;
+}
+
+.fooder {
+    background-color: black;
+    color: blanchedalmond;
+    text-shadow: brown;
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.orange {
+    color: orange;
+}
+
+.gray {
+    color: gray;
+}
+
+.text {
+    margin: 20px;
+    box-shadow: 15px 15px 19px gray;
+    display: flex;
+    text-align: center;
+    margin: 30px;
+}
+
+.text-deco {
+    padding: 25px;
+    margin: 30px;
+    width: 33%;
 }
